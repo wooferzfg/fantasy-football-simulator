@@ -1,0 +1,159 @@
+{
+  "wildcards": 3,
+  "divisions": {
+    "Division 1": [
+      "Team 1",
+      "Team 2",
+      "Team 3",
+      "Team 4"
+    ],
+    "Division 2": [
+      "Team 5",
+      "Team 6",
+      "Team 7",
+      "Team 8"
+    ],
+    "Division 3": [
+      "Team 9",
+      "Team 10",
+      "Team 11",
+      "Team 12"
+    ]
+  },
+  "teams": {
+    "Team 1": {
+      "wins": 9,
+      "divisionWins": 3,
+      "points": 1242
+    },
+    "Team 2": {
+      "wins": 8,
+      "divisionWins": 4,
+      "points": 1155
+    },
+    "Team 3": {
+      "wins": 6,
+      "divisionWins": 0,
+      "points": 1039
+    },
+    "Team 4": {
+      "wins": 3,
+      "divisionWins": 1,
+      "points": 953
+    },
+    "Team 5": {
+      "wins": 9,
+      "divisionWins": 3,
+      "points": 1198
+    },
+    "Team 6": {
+      "wins": 7,
+      "divisionWins": 2,
+      "points": 1181
+    },
+    "Team 7": {
+      "wins": 5,
+      "divisionWins": 1,
+      "points": 1114
+    },
+    "Team 8": {
+      "wins": 5,
+      "divisionWins": 2,
+      "points": 982
+    },
+    "Team 9": {
+      "wins": 6,
+      "divisionWins": 3,
+      "points": 1124
+    },
+    "Team 10": {
+      "wins": 6,
+      "divisionWins": 3,
+      "points": 1083
+    },
+    "Team 11": {
+      "wins": 5,
+      "divisionWins": 2,
+      "points": 929
+    },
+    "Team 12": {
+      "wins": 3,
+      "divisionWins": 0,
+      "points": 926
+    }
+  },
+  "matchups": [
+    [
+      {
+        "team": "Team 1",
+        "projected": 94,
+        "variance": 400
+      },
+      {
+        "team": "Team 4",
+        "projected": 87,
+        "variance": 300
+      }
+    ],
+    [
+      {
+        "team": "Team 7",
+        "projected": 90,
+        "variance": 400
+      },
+      {
+        "team": "Team 8",
+        "projected": 83,
+        "variance": 450
+      }
+    ],
+    [
+      {
+        "team": "Team 12",
+        "projected": 94,
+        "variance": 350
+      },
+      {
+        "team": "Team 10",
+        "projected": 99,
+        "variance": 350
+      }
+    ],
+    [
+      {
+        "team": "Team 5",
+        "projected": 107,
+        "variance": 350
+      },
+      {
+        "team": "Team 6",
+        "projected": 98,
+        "variance": 300
+      }
+    ],
+    [
+      {
+        "team": "Team 9",
+        "projected": 91,
+        "variance": 350
+      },
+      {
+        "team": "Team 11",
+        "projected": 65,
+        "variance": 200
+      }
+    ],
+    [
+      {
+        "team": "Team 3",
+        "projected": 93,
+        "variance": 350
+      },
+      {
+        "team": "Team 2",
+        "projected": 110,
+        "variance": 400
+      }
+    ]
+  ]
+}

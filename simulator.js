@@ -8,8 +8,8 @@ const divisionOfTeam = (team) => {
   return _.find(data.divisions, (division) => _.includes(division, team));
 }
 
-const getPoints = (projection) => {
-  const distribution = gaussian(projection, 450);
+const getPoints = (projection, variance) => {
+  const distribution = gaussian(projection, variance);
   const randNum = Math.random();
   return Math.round(distribution.ppf(randNum));
 }
@@ -17,7 +17,7 @@ const getPoints = (projection) => {
 const getResultForTeam = (team) => {
   return {
     team: team.team,
-    points: getPoints(team.projected)
+    points: getPoints(team.projected, team.variance)
   };
 }
 
