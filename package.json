@@ -10,6 +10,6 @@
   "dependencies": {
     "decimal-to-percent": "^1.0.1",
     "gaussian": "^1.1.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
